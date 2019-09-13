@@ -1,0 +1,17 @@
+$button: goldenrod;
+
+.login {
+    text-align: center;
+    padding: 1.2em;
+    border: 3px solid black;
+}
+
+button {
+    margin: 3px 0;
+    font-size: 15px;
+    background-color: $button;
+}
+
+button:hover {
+    background: darken($button, 10%);
+}

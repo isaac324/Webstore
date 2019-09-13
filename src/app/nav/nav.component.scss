@@ -1,0 +1,29 @@
+$primary: rgb(255, 223, 0);
+
+header {
+    background: $primary;
+    padding: 2.2em 0;
+    text-align: center;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a.logo {
+        font-weight: bold;
+    }
+}
+
+nav {
+    float: left;
+    ul{
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        li a {
+            padding: 1em;
+            &:hover {
+                background: darken($primary, 10%);
+            }
+        }
+    }
+}
