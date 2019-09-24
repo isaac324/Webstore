@@ -7,6 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { SigninComponent } from './signin/signin.component';
 import { NavComponent } from './nav/nav.component';
+import { DetailComponent } from './detail/detail.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { CartComponent } from './cart/cart.component';
+import { FinalizeComponent } from './finalize/finalize.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { NavComponent } from './nav/nav.component';
     HomeComponent,
     ListComponent,
     SigninComponent,
-    NavComponent
+    NavComponent,
+    DetailComponent,
+    CheckoutComponent,
+    CartComponent,
+    FinalizeComponent
   ],
   imports: [
     BrowserModule,
