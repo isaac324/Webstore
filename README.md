@@ -17,6 +17,16 @@ Additions: CSS for home, list, signin, and nav components
 
 ## Sprint 2
 
-Components added: 
+Components added: Detail, Cart, Checkout, Finalize
 
+Detail: Detail page that provide basic information such as price for each item sold
+Cart: Page that provides item that are ready to be checkout and purchased
+Checkout: Users of webstore will place their name and shipping address and 
+finalize their purchase
+Finalize: Page that displayed after completing checkout confirming the success of 
+the transaction
 
+Changes/Additions: 
+- Navigation bar has a Cart button added
+- CSS changes done to all accessible pages throughout webstore
+- Images on list page link to deatils page
