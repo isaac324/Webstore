@@ -1,7 +1,7 @@
 $button: goldenrod;
 
 .page{
-    background-color: silver;
+    background-color: lightgreen;
     padding-top: 5%;
     padding-bottom: 40%;
 }
@@ -12,9 +12,12 @@ $button: goldenrod;
     border: 3px solid black;
     background-color: silver;
     font-size: 1.5em;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-input[type=text], input[type=password] {
+input {
     width: 25%;
     font-size: 0.8em;
 }

@@ -1,4 +1,24 @@
 .info{
+    background-color: silver;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+    border-style: solid;
+    border-color: black;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    margin: 2%;
+    width: 50%;
+    font-size: 0.6em;
+}
+
+div {
+    padding: 5%;
+    text-align: center;
+    padding-bottom: 20%;
+    background-color: lightgreen;
 }

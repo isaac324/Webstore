@@ -1,0 +1,37 @@
+div {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+.item {
+    background-color: silver;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+button {
+    float: right;
+    font-size: 1em; 
+}
+
+.quantity {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}
+
+input {
+    font-size: 1.2em;
+    background-color: gold;
+}
